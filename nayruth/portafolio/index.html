@@ -58,7 +58,7 @@
 		          	<div class="text">
 		          		<span class="subheading">Hola</span>
 			            <h1 class="mb-4 mt-3">Yo soy <span>Nayruth Calla</span></h1>
-			            <h2 class="mb-4">Back-End </h2>
+			            <h2 class="mb-4">Front-End </h2>
 			            <p><a href="#" class="btn-custom">Contrátame</a></p>
 		            </div>
 		          </div>
@@ -70,7 +70,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last img" style="background-image:url(images/pc-nay.png);">
+	          	<div class="one-third order-md-last img" style="background-image:url(images/pc-nay.png); height: 20rem;">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -88,14 +88,26 @@
 
     <section class="ftco-about ftco-counter img ftco-section" id="about-section">
     	<div class="container">
+			
     		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/perfil.png);">
-	    				</div>
-    				</div>
-    			</div>
+				
+    			<div class="col-md-6 col-lg-5 d-flex" style="height: 20rem;">
+    				<div class="img-about img d-flex align-items-stretch" >
+    					<div class="overlay" style="width: 10rem;">
+								<div class="text p-4 pr-5 bg-primary" > 
+										<div class="mb-0">
+										  <span class="number" data-number="3000" >0</span>
+										  <span>Sueños por cumplir</span>
+										</div>
+									</div>		
+						</div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/perfil-movil.png); height: 20rem;  margin-left: 7rem;">
+						</div>						
+					</div>
+					
+				</div>
+								
+				
     			<div class="col-md-6 col-lg-7 pl-lg-5 py-5">
     				<div class="row justify-content-start pb-3">
 		          <div class="col-md-12 heading-section ftco-animate ">
@@ -108,16 +120,11 @@
 							<li class="ftco-animate li"><a target="_blank" href="https://twitter.com/CallaNayruth"><span class="icon-twitter"></span></a></li>							
 							             
 					</ul> 
+					
 		          </div>
-		        </div>		       
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text p-4 pr-5 bg-primary">
-              	<p class="mb-0">
-	                <span class="number" data-number="3000">0</span>
-	                <span>Sueños por cumplir</span>
-                </p>
-              </div>
-	          </div>
+				</div>	
+					       
+	        
 	        </div>
         </div>
     	</div>
@@ -289,81 +296,573 @@
 				</div>
 			</div>
 		</section>
- 
-
-    <section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Logros</span>
-            <h2 class="mb-4"> Proyectos</h2>
-            <p>El autoaprendizaje es la mejor arma</p>
-          </div>
-        </div>
-    		<div class="row">
-					<div class="col-md-8">
-							<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-								<div class="overlay"></div>
-								<div class="text text-center p-4">
-									<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-									<span>Web Design</span>
-								</div>
+		<!--====================================================
+        PORTFOLIO
+======================================================-->
+<section class="ftco-section ftco-project" id="projects-section">
+		<div class="row justify-content-center">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Portafolio</span>
+				  <h2 class="mb-4">Mis Proyectos</h2>
+				  <div class="port-head-cont">
+                        <button class="btn btn-general btn-green filter-b" data-filter="all">Todo</button>
+                        <button class="btn btn-general btn-green filter-b" data-filter="mas-reciente">Más Recientes</button>
+                        <button class="btn btn-general btn-green filter-b" data-filter="hackaton">Producto - Hackaton</button>
+                        <!-- <button class="btn btn-general btn-green filter-b" data-filter="marketing">Diseño corporativo</button> -->
+                    </div>
+				</div>
+			  </div>
+		<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+            
+            <div class="row my-auto">
+                <div class="col-sm-4 portfolio-item filter hackaton">
+                    <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/hipar.png" alt="">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item filter marketing">
+                    <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/hackatonPeli.png" alt="">
+                    </a>
+                </div> -->
+                <div class="col-sm-4 portfolio-item filter mas-reciente">
+                    <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/burguer.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item filter mas-reciente">
+                    <a class="portfolio-link" data-target="#portfolioModal7" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/md-link.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item filter mas-reciente">
+                    <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/redSoc.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item filter hackaton">
+                    <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/hackatonPeli.png" alt="">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item filter marketing">
+                    <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/hackatonPeli.png" alt="">
+                    </a>
+                </div> -->
+                <!-- <div class="col-sm-4 portfolio-item filter marketing">
+                    <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+                        <div class="caption-port">
+                            <div class="caption-port-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="images/hackatonPeli.png" alt="">
+                    </a>
+                </div> -->
+               
+            </div>
+        </section>
+	</section>
+    <!--====================================================
+                    PORTFOLIO MODALS 1440 1024
+======================================================-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Presentación alcance para proyecto</h2>
+								<div class="heading-border"></div>
 							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<a target="blank_" href="https://docs.google.com/presentation/d/1As_yaSwfr2LRj8pmoIVmtz8wnwtCWgdBeMQtmTKES-s/edit?usp=sharing"><img class="img-fluid img-centered" src="img/portfolio/8.png" alt=""></a>
+							</div>
+							<div class="col-md-6">
+								<p> Siempre subestimadas pero necesarias para darle el formalismo y profesionalismo que cualquier idea requiere. Los slideshows, presentaciones o ppt, como algunos llaman, son esenciales en el mundo corporativo.
+									<br><br>El buen manejo de colores, captación de la esencia de la marca, sentido y propósito de la presentación y cuidado de los detalles, son aspectos que solemos descuidar a la hora de crear una. </p>
+								<ul class="list-inline item-details">
+									<li>Cliente:
+										<strong>
+										<span>Emprendimiento</span>
+									  </strong>
+									</li>
+									<li>Fecha:
+										<strong>
+										<span>Enero 2018</span>
+									  </strong>
+									</li>
+									<li>Servicio:
+										<strong>
+										<span>Presentación para venta de producto</span>
+									  </strong>
+									</li>
+								</ul>
+								<button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+									<a href="https://docs.google.com/presentation/d/1As_yaSwfr2LRj8pmoIVmtz8wnwtCWgdBeMQtmTKES-s/edit?usp=sharing" class="no-decoration white " target="_blank ">Ver mas</a>
+								</button>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-4">
-							<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/pokepedia.png);">
-								<div class="overlay"></div>
-								<div class="text text-center p-4">
-									<h3><a href="https://nayruthcalla.github.io/LIM009-data-lovers/src/index.html"  target="_blank">DEMOSTRACIÓN</a></h3>
-									<span>No conoces nada de pokemon, aquí podras conocerlos y saber un dato curioso</span>
-								</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">League of Legend For Beginners, Data-Dashboard</h2>
+								<div class="heading-border"></div>
 							</div>
-						  </div>	
-    			
-    			<div class="col-md-4">
-    				<div class="row">
-    					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/md-link.png);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="https://www.npmjs.com/package/md-links003"  target="_blank">LO PUEDES DESCARGAR AQUÍ</a></h3>
-			    					<span>Tienes archivos markdown y te da pereza verificar si tus links estan rotos, o ya no existen md-link003 lo hace por tí</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/hackatonPeli.png);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="https://nayruthcalla.github.io/LIM009-hackathon-peliculas/src/#"  target="_blank">DEMOSTRACIÓN</a></h3>
-			    					<span>Producto realizado en una hackaton de 1 día</span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/pokepedia.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://nayruthcalla.github.io/LIM009-data-lovers/src/index.html"  target="_blank">DEMOSTRACIÓN</a></h3>
-	    					<span>No conoces nada de pokemon, aquí podras conocerlos y saber un dato curioso</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-    		</div>
-    	</div>
-    </section>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<a target="blank_" href="#"><img class="img-fluid img-centered" src="img/portfolio/5.png" alt=""></a>
+							</div>
+							<div class="col-md-6">
+								<p> Esta página web que facilita el proceso de adaptación a millones de usuarios en categoría Beginner, para su introducción en el juego League of Legends. El proceso involucró entrevistas a usuarios, benchmark, prototipos
+									de alta y baja fidelidad, definición del producto y User Persona, así como Lean Canvas. </br>
+									</br>
+									Esta interfaz, con adaptaciones responsive y lineamientos de visual design encubre la manipulación de data estática con el proposito de ordenarla, filtrarla y adecuarla para hacerla amigable y accesible al usuario.
+								</p>
+								<ul class="list-inline item-details">
+									<li>Cliente:
+										<strong>
+									  <span>Laboratoria</span>
+									</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+									  <a href="#">Enero 2019</a>
+									</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+									  <a href="#">App web - Data dashboard</a>
+									</strong>
+									</li>
+									<li>Github:
+										<strong>
+										<span><a href="https://github.com/NayRojas/lim-2018-11-bc-core-am-data-lovers" target="_blank " class="no-decoration gray ">Repositorio del proyecto</a></span>
+									</strong>
+									</li>
+								</ul>
+								<button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+								<a href="https://nayrojas.github.io/lim-2018-11-bc-core-am-data-lovers/src/" class="no-decoration white " target="_blank">Ver página</a>
+							</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center"> Hiparquía </h2>
+								<div class="heading-border"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<a href="https://github.com/nayruthCalla/Social-Hiparquia" target="blank_"><img class="img-fluid img-centered" src="images/hipar.png" alt=""></a>
+							</div>
+							<div class="col-md-6">
+								<p ALIGN="justify">"HACKEANDO LA DESIGUALDAD", hackaton en honor al día de la mujer, hasta el día de hoy siguen estando presentes los estereotipos sexuales en nuestra sociedad, Hiparquía busca generar comunidad entre mujeres que quieran vivir su sexualidad a plenitud.</br>
+									</br>Esta aplicación conecta a mujeres y profesionales como sexólogos, ginecólogos. También hay opcion de compartir anécdotas que puedan servir como referencia a otras mujeres que tenga dudas sexuales.</p>
+								<ul class="list-inline item-details">
+									<li>Cliente:
+										<strong>
+									  <span> Hackatón, Laboratoría</span>
+									</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+									  <span> Marzo 2019</span>
+									</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+									  <span>Prototipo de una WebApp </span>
+									</strong>
+									</li>
+									<button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+											<a href="https://github.com/nayruthCalla/Social-Hiparquia" class="no-decoration white " target="_blank ">Ver Demostración</a>
+										</button>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Briefing corporativo</h2>
+								<div class="heading-border"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<a target="blank_" href="https://www.behance.net/gallery/72130529/Joy-It-Peru"><img class="img-fluid img-centered" src="img/portfolio/7.png" alt=""></a>
+							</div>
+							<div class="col-md-6">
+								<p>Esta compañía se especializa en Soluciones de Gestión Humana para el sector de tecnología de la información. Para ellos, diseñamos una briefing corporativo resaltando sus principales servicios. <br><br> Adaptados a
+									su manual de marca y esencia, se refleja en una pie
+								</p>
+								<ul class="list-inline item-details">
+									<li>Cliente:
+										<strong>
+									  <span>Joy IT</span>
+									</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+									  <span>Marzo 2018</span>
+									</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+									  <span>Diseño corporativo</span>
+									</strong>
+									</li>
+								</ul>
+								<button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+									<a href="https://www.behance.net/gallery/72130529/Joy-It-Peru" class="no-decoration white " target="_blank ">Ver mas</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Burger Queen WebApp</h2>
+								<div class=" heading-border "></div>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-6 ">
+								<a target="blank_ " href="https://github.com/nayruthCalla/LIM009-fe-md-links"><img class="img-fluid img-centered " src="images/burguer.png" alt=" "></a>
+							</div>
+							<div class="col-md-6 ">
+								<p>¿Alguna vez te has cuestionado si tus llamadas y mensajes quedan registrados en alguna base de datos en tu compañia telefónica? ¿O si existen registros diarios de tus ubicaciones por tener activo el Wi-Fi?, esta era
+									digital trae consigo dos caras de la moneda, y una de ellas, es la privacidad de nuestra información. De allí nace la idea, como parte de un programa completo que nos permita entender la importancia de proteger
+									nuestra información ante las grandes empresas y corporaciones.
+									<br><br> Se plantea que esta interfaz sea parte de un Taller Interactivo dictado a escuelas, universidades y corporaciones, donde los participantes puedan cifrar y descrifrar palabras con el método de Cifrado Cesar,
+									dando así sus primeros pasos ante esta problematica mundial.</p>
+								<ul class="list-inline item-details ">
+									<li>Cliente:
+										<strong>
+										<span> Laboratoria</span>
+									</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+										<span> Julio 2019</span>
+									</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+										<span> WebApp</span>
+									</strong>
+									</li>
+									<li>Github:
+										<strong>
+									  <span><a href="https://github.com/nayruthCalla/LIM009-fe-md-links" target="_blank " class="no-decoration gray ">Repositorio del proyecto</a></span>
+								  </strong>
+								  <button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+										<a href="https://github.com/nayruthCalla/LIM009-fe-md-links" class="no-decoration white " target="_blank ">Ver página</a>
+									</button>
+									</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Librería md-links003</h2>
+								<div class=" heading-border "></div>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-6 ">
+								<a target="blank_ " href="https://www.npmjs.com/package/md-links003"><img class="img-fluid img-centered " src="images/md-link.png" alt=""></a>
+							</div>
+							<div class="col-md-6 ">
+								<p ALIGN="justify">¿A quien no le ha pasado encontrarse con un link roto o que no exite en los famosos readme de Github ?, md-links003 verifica, válida y realiza una estadística de cualquier archivo que utilize el lenguaje markdown</br>
+									</br>
+									Esta libreria esta publicada en npm para que otros desarrolladores puedan utilizarlo, se puede utilizar como una API (Application Programming Interface) o CLI (Command-line Interface).</br>
+									Tecnologías utilizadas: <strong>Node.js</strong> (Asíncrono), <strong>Vanilla JS</strong>.
+								</p>
+								<ul class="list-inline item-details ">
+									<li>Cliente:
+										<strong>
+												<span> Laboratoria</span>
+											</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+												<span> Junio 2019</span>
+											</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+												<span> Librería md-links</span>
+											</strong>
+									</li>
+									<li>Github:
+										<strong>
+												<span><a href="https://github.com/nayruthCalla/LIM009-fe-md-links" target="_blank " class="no-decoration gray "> Repositorio del proyecto </a></span>
+											</strong>
+											<button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+													<a href="https://www.npmjs.com/package/md-links003" class="no-decoration white " target="_blank "> Ver librería</a>
+												</button>
+									</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Bésame Mucho, Red Social</h2>
+								<div class=" heading-border "></div>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-6 ">
+								<a target="blank_ " href="https://marjo1994.github.io/LIM009-Social-Network/src/"><img class="img-fluid img-centered " src="images/redSoc.png" alt=" "></a>
+							</div>
+							<div class="col-md-6 ">
+								<p ALIGN="justify"> Bésame Mucho, red social creada para padres de familia que quieran promover la educación respetuosa para sus hijos. Cuenta con funciones básicas de una red social: publicar, editar, eliminar y configurar privacidad de
+									posts, así como editar mi perfil, iniciar sesión con Google, Facebook y correo electrónico.</br>
+									</br>
+									Tecnologías utilizadas: <strong>Firebase</strong> (manipulación de data obtenida desde la UI), <strong>Vanilla JS</strong> ( Vanilla JS para la implementación de todo el proyecto, convirtiendola en una SPA (Single Page Application) responsive).</br>
+								</p>
+								<ul class="list-inline item-details ">
+									<li>Cliente:
+										<strong>
+												<span>Laboratoria</span>
+											</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+												<span>Mayo 2019</span>
+											</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+												<span>Red social</span>
+											</strong>
+									</li>
+									<li>Github:
+										<strong>
+											  <span><a href="https://github.com/nayruthCalla/LIM009-Social-Network" target="_blank " class="no-decoration gray ">Repositorio del proyecto</a></span>
+										  </strong>
+										  <button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+												<span><a href="https://marjo1994.github.io/LIM009-Social-Network/src/" class="no-decoration gray" target="_blank ">Ver Demostración</a></span>
+											</button>
+									</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="modal-body">
+						<div class="title-bar">
+							<div class="col-md-12">
+								<h2 class="text-center">Cinemus</h2>
+								<div class=" heading-border "></div>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col-md-6 ">
+								<a target="blank_ " href="https://nayruthcalla.github.io/LIM009-hackathon-peliculas/src/"><img class="img-fluid img-centered " src="images/hackatonPeli.png" alt=" "></a>
+							</div>
+							<div class="col-md-6 ">
+								<p>Producto desarrollado en una hackaton de 2 días, simulando un equipo de trabajo una Ux Designs y una Front-end development, poniendo a prueba nuestra habilidad de trabajar bajo presión.</br>
+									</br>El producto fue terminado exitosamente, Cinemus un sitio web que sirve para buscar películas y mostrar una sinopsis de ella.</br>
+								</p>
+								<ul class="list-inline item-details ">
+									<li>Cliente:
+										<strong>
+												<span>Hackatón, Laboratoría</span>
+											</strong>
+									</li>
+									<li>Fecha:
+										<strong>
+												<span>Abril 2019</span>
+											</strong>
+									</li>
+									<li>Servicio:
+										<strong>
+												<span>Sitio Web</span>
+											</strong>
+									</li>
+									<li>Github:
+											<strong>
+										  <span><a href="https://github.com/nayruthCalla/LIM009-hackathon-peliculas" target="_blank " class="no-decoration gray ">Repositorio del proyecto</a></span>
+									  </strong>
+									  <button class="btn btn-general btn-white " type="button " data-dismiss="modal ">
+											<a href="https://nayruthcalla.github.io/LIM009-hackathon-peliculas/src/" class="no-decoration white " target="_blank ">Ver Demostracíon</a>
+										</button>
+										</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center mb-5 pb-3">
@@ -400,6 +899,7 @@
         </div>
       </div>
 	</section>
+	
     <footer class="ftco-footer ftco-section ">
 		<div class="container ">
 			<div class="row mb-5 style-b margi-fo">
@@ -465,6 +965,34 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+  <script>
+	$(document).ready(function() {
+
+		$(".filter-b ").click(function() {
+			var value = $(this).attr('data-filter');
+			if (value == "all") {
+				$('.filter').show('1000');
+			} else {
+				$(".filter ").not('.' + value).hide('3000');
+				$('.filter').filter('.' + value).show('3000');
+			}
+		});
+
+		if ($(".filter-b ").removeClass("active ")) {
+			$(this).removeClass("active ");
+		}
+		$(this).addClass("active ");
+	});
+
+	// SKILLS
+	$(function() {
+		$('.counter').counterUp({
+			delay: 10,
+			time: 2000
+		});
+
+	});
+</script>
     
   </body>
 </html>
