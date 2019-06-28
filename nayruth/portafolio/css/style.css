@@ -12610,7 +12610,7 @@ textarea.form-control {
     margin-bottom: 4rem;
   }
   .portfolio-modal .close-modal {
-    display: inline;
+    display: none;
   }
   .bac,h1{    
     color : black !important;
