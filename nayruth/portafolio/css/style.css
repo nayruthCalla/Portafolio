@@ -12601,11 +12601,18 @@ textarea.form-control {
 .style-soft{
   width: 6rem;
 }
-.btn-back{
-  display: none;
-}
 @media (max-width: 850px) {
-    .bac,h1{    
+  .owl-carousel.home-slider .slider-item {
+    height: 20rem;   
+  }
+  #home-section{
+    height: 20rem;
+    margin-bottom: 4rem;
+  }
+  .portfolio-modal .close-modal {
+    display: inline;
+  }
+  .bac,h1{    
     color : black !important;
   }
   .bac-color{
@@ -12637,8 +12644,5 @@ textarea.form-control {
    }
    .col-xm-2{
     width: 50%
-  }
-  .btn-back{
-    display: inline;
   }
 }
