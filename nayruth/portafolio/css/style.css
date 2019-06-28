@@ -12407,6 +12407,7 @@ textarea.form-control {
 }
 .img-skill {
   height: 5rem;
+  /* width: 10rem; */
   padding: 2%;
   border-radius: 50%;
 }
@@ -12597,18 +12598,14 @@ textarea.form-control {
   display: none;
   opacity: 0;
 }
+.style-soft{
+  width: 6rem;
+}
+.btn-back{
+  display: none;
+}
 @media (max-width: 850px) {
-  .owl-carousel.home-slider .slider-item {
-    height: 20rem;   
-  }
-  #home-section{
-    height: 20rem;
-    margin-bottom: 4rem;
-  }
-  .portfolio-modal .close-modal {
-    display: none;
-  }
-  .bac,h1{    
+    .bac,h1{    
     color : black !important;
   }
   .bac-color{
@@ -12640,5 +12637,8 @@ textarea.form-control {
    }
    .col-xm-2{
     width: 50%
+  }
+  .btn-back{
+    display: inline;
   }
 }
