@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="overflow-y: scroll;overflow-x: hidden">
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -152,7 +152,7 @@
 		</div>
     </section>
 		
-		<section class="ftco-section bg-light" id="skills-section">
+		<section class="ftco-section bg-light" id="skills-section" >
 			<div class="container">
 				<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
@@ -161,7 +161,7 @@
             <p ALIGN="justify"> Formé parte de un bootcamp intensivo de 6 meses en LABORATORIA, que simula un entorno laboral a través de la metodología ágil Scrum y Kanban. </p>
           </div>
 		</div>
-		<div  style="border:1px solid rgba(192, 187, 187, 0.5);padding:1rem">
+		<div class="clas-dest" style="border:1px solid rgba(192, 187, 187, 0.5);">
 		<div class="row">
 				<div class="col-md-12 heading-section text-center ftco-animate">
 						<span class="mb-4" style="font-size: 30px; text-transform: capitalize; margin-bottom: 2rem">Tecnologías:</span>
@@ -301,7 +301,7 @@
 				
 			</div>
 		</div>
-		<div  style="border:1px solid rgba(192, 187, 187, 0.5); margin-top: 2rem; padding:1rem">
+		<div  class="clas-dest" style="border:1px solid rgba(192, 187, 187, 0.5); margin-top: 2rem;">
 				<div class="col-md-12 heading-section text-center ftco-animate">
 						<span class="mb-4" style="font-size: 30px; text-transform: capitalize; margin-bottom: 2rem">Habilidades Blandas</span>
 						 </div>	
@@ -1034,12 +1034,12 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form  class="bg-light p-4 p-md-5 contact-form" method="POST" action="https://formspree.io/nayruthcalla.m@gmail.com">
+            <form  class="bg-light p-4 p-md-5 contact-form" method="POST" action="https://formspree.io/nayruth.calla@gmail.com" onsubmit="this.reset()">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Escribe tu email">
+                <input type="email" name="email" class="form-control" placeholder="Escribe tu email">
               </div>              
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje...🖊"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje...🖊"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Enviar mensaje" class="btn btn-primary py-3 px-5">
@@ -1107,7 +1107,7 @@
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="20%" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
   <script src="js/jquery.min.js"></script>

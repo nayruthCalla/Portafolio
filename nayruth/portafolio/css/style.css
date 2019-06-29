@@ -76,6 +76,8 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus {
@@ -98,6 +100,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
 
 p {
   margin-top: 0;
@@ -415,6 +418,9 @@ h5,
 h6,
 .h6 {
   font-size: 1rem;
+}
+.h6-text{
+  width: 2rem;
 }
 
 .lead {
@@ -12601,6 +12607,9 @@ textarea.form-control {
 .style-soft{
   width: 6rem;
 }
+.clas-dest{
+  padding-left:4rem;
+}
 @media (max-width: 850px) {
   .owl-carousel.home-slider .slider-item {
     height: 20rem;   
@@ -12644,5 +12653,11 @@ textarea.form-control {
    }
    .col-xm-2{
     width: 50%
+  }
+  .movil-padding{
+    padding-left:3rem
+  }
+  .clas-dest{
+    padding-left: 1rem;
   }
 }
