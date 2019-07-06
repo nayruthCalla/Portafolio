@@ -641,12 +641,16 @@ h6 {
 }
 
 /*-------------------testimonial section---------------*/
-
-#client-testimonial {
-  background: url("../images/unamad.png");
+#back-test {
+  background: url("../images/unamad2.jpg");
   /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-
+  background-repeat: no-repeat;
+}
+#client-testimonial {
+  /* background: rgba(56, 54, 54, 0.37); */
+  /* background: url("../images/unamad2.jpg"); */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
 }
 
 #client-testimonial .client-area {
@@ -680,7 +684,8 @@ h6 {
   padding: 30px;
   transition: all 0.5s;
   color: #fff;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(90, 88, 88, 0.7);
+  border-radius: 2rem;
 }
 
 .quote-text i {
@@ -693,7 +698,7 @@ h6 {
   height: 0;
   border-style: solid;
   border-width: 0 10px 10px 10px;
-  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+  border-color: transparent transparent rgba(90, 88, 88, 0.7) transparent;
   margin: 0 auto;
 }
 
@@ -734,8 +739,14 @@ h6 {
 }
 
 form {
-  background: #232323;
+  /* background: #050505cb; */
+  /* margin: ; */
+  /* background: url("../images/"); */
+  /* background-repeat: no-repeat; */
+  border: 0.6px solid rgba(11, 8, 32, 0.247);
   padding: 38px 38px;
+  border-radius: 2rem;
+  /* box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.445); */
 }
 
 #name,
@@ -779,7 +790,7 @@ textarea {
 }
 
 .contact-detail p i {
-  color: #333;
+  color: rgba(102, 98, 100, 0.781);
   font-size: 22px;
   padding-right: 12px;
   width: 30px;
@@ -788,7 +799,7 @@ textarea {
 .contact-detail .social-icons a i {
   font-size: 14px;
   margin-right: 5px;
-  background: #000;
+  background: rgb(90, 89, 89);
   color: #fff;
   width: 32px;
   height: 30px;
@@ -810,7 +821,12 @@ textarea {
 
 #contact-submit {
   margin-top: 30px;
-  padding: 12px 42px;
+  padding: 6px 12px;
+  margin-left: 30%;
+}
+#contact-submit{
+  background:#747371;
+  border-radius: 1rem;
 }
 
 .contact .result {
