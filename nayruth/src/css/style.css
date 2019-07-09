@@ -54,6 +54,7 @@ header a .logo {
 
 header nav {
   float: right;
+  
 }
 .headerinit {
   background: rgba(46, 48, 46, 0.541);
@@ -63,15 +64,21 @@ header nav ul li {
   display: inline-block;
   margin-left: -2px;
 }
-.nav-padd {
-  padding-left: 3rem;
+.nav-padd {  
+  /* width: 140px; */
+  margin-left: 1rem;
+  padding: 2px;
+  overflow: hidden;
+}
+.esp-home{
+  width: 100%;
 }
 
 header nav ul li a {
   color: #fff;
   /* text-transform: uppercase; */
   transition: all 0.2s;
-  width: 100px;
+  /* width: 100px; */
   text-align: center;
   display: block;
   margin-left: -3px;
@@ -87,10 +94,11 @@ header nav ul li a:hover {
 
 .slicknav_menu {
   display: none;
-  /* width: 9px; */
+  /* width: 100px; */
   height: 80px;
   background-color: #fff;
 }
+
 
 /*-----------------------welcome section------------------*/
 
@@ -98,11 +106,10 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
-
 .welcome-area.particle-bg {
   position: relative;
   background-size: cover !important;
-  background: url("../images/rioMDDwelcome.png");
+  background: url("../images/rioMDDwelcome1.jpg");
 }
 .color-wel {
   background: rgba(18, 19, 18, 0.233);
@@ -143,9 +150,9 @@ canvas {
 }
 
 .typed-cursor,
-.element {
+.element,.element2 {
   display: inline;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #particles-js {
@@ -160,7 +167,9 @@ canvas {
   opacity: 1;
   animation: blink 0.7s infinite;
 }
-
+.top-welco{
+  margin:2rem; 
+  }
 @keyframes blink {
   0% {
     opacity: 1;
@@ -171,6 +180,9 @@ canvas {
   100% {
     opacity: 1;
   }
+}
+.element3,.typed-cursor{
+  display: none;
 }
 
 /*------------------about section---------------------------*/
@@ -853,4 +865,14 @@ footer {
     border: 1px solid rgba(0, 0, 0, 0.308);
     margin: 1rem;
   }
+  .element,.element2,.typed-cursor{
+    display: none;
+  }
+  
+.element3{
+  display: block;
+  font-size: 50px;
+  /* font-weight: ; */
+}
+
 }

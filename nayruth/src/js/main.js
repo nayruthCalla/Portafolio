@@ -137,10 +137,22 @@
 
 
         var element = $(".element");
+        var element2 = $(".element2");
+        var element3 = $(".element3")
 
         $(function() {
             element.typed({
-                strings: ["Front-End","Developer","Ser Autodidacta","Es mi mejor","Arma"],
+                strings: ["Front-End","Ser Autodidacta"," Mi mayor"],
+                typeSpeed: 130,
+                loop: true,
+            });
+            element2.typed({
+                strings: ["Developer","y Proactiva es","Arma"],
+                typeSpeed: 170,
+                loop: true,
+            });
+            element3.typed({
+                strings: ["Front-End","Developer"],
                 typeSpeed: 100,
                 loop: true,
             });
@@ -161,9 +173,18 @@
         animation1.waypoint(function() {
             var thisElement = $(this.element);
             var animation = thisElement.attr('data-animation');
-
             thisElement.css('opacity', '1');
             thisElement.addClass("animated " + animation).delay(2000);
+
+            var thisElement2 = $(this.element2);
+            var animation2 = thisElement2.attr('data-animation');
+            thisElement2.css('opacity', '1');
+            thisElement2.addClass("animated " + animation2).delay(2000);
+
+            var thisElement3 = $(this.element3);
+            var animation3 = thisElement3.attr('data-animation');
+            thisElement3.css('opacity', '1');
+            thisElement3.addClass("animated " + animation3).delay(2000);
         }, {
             offset: '75%',
         });
