@@ -311,7 +311,7 @@ h6 {
   color: rgba(37, 36, 36, 0.801);
   padding: 12px 12px;
   display: block;
-  transition: all 0.5s;
+  transition: all 0.5s;  
   border: 1px solid rgba(192, 187, 187, 0.5);
   /* margin-top: 28px; */
   /* margin-bottom: 18px; */
@@ -322,10 +322,11 @@ h6 {
   background: #fff;
   color: #000;
   outline: 1px solid #000;
+  
 }
 
 .about-text a:hover i {
-  color: #000;
+  color: #000;  
 }
 
 .about-text a i {
@@ -516,12 +517,14 @@ h6 {
 
 .portfolio-overlay .magnify-icon {
   height: 40px;
-  width: 40px;
+  /* width: 40px; */
   background: #fff;
   margin: 12px 10px;
   cursor: pointer;
   display: inline-block;
   transition: all 0.25s;
+  border-radius: 3px;
+  padding: 3px;
 }
 
 .corner-top {
@@ -584,6 +587,7 @@ h6 {
 
 .portfolio-overlay .magnify-icon:hover {
   background: #000;
+  color: white;
 }
 
 .portfolio-overlay .magnify-icon p span i {
@@ -653,11 +657,10 @@ h6 {
 }
 
 /*-------------------testimonial section---------------*/
-#back-test {
-  background: url("../images/unamad2.jpg");
-  /* background-size: cover; */
+/* #back-test {
+  background: url("../images/unamad2.jpg"); 
   background-repeat: no-repeat;
-}
+} */
 #client-testimonial {
   /* background: rgba(56, 54, 54, 0.37); */
   background: url("../images/unamad2.jpg");
@@ -845,7 +848,11 @@ textarea {
   color: #fff;
   margin-top: 8px;
 }
-
+/*ultimos cambios*/
+.topMisProyect{
+  border-radius: 4rem; 
+  margin-top:5rem
+}
 /*---------------footer-------------*/
 
 footer {
@@ -856,6 +863,10 @@ footer {
 .copyright p {
   text-align: center;
   color: #ddd;
+}
+.mdd{
+  margin-left: 80%;
+  font-size: 20px
 }
 @media (max-width: 850px) {
   /* .col-x-2{
@@ -873,6 +884,13 @@ footer {
   display: block;
   font-size: 50px;
   /* font-weight: ; */
+}
+.topMisProyect{
+  margin-top: 2rem;
+}
+.mdd{
+  margin-left: 20%;
+  color: rgb(204, 204, 198)
 }
 
 }

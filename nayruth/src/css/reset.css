@@ -142,13 +142,13 @@ a:focus {
   color: #fff;
   display: inline-block;
   transition: all 0.5s;
-  outline: 1px solid #fff;
+  outline: 1px solid #fff;  
 }
 
 .btn-style2:hover,
 .btn-style2:focus {
   background-color: #fff;
-  color: #000;
+  color: #000;  
 }
 
 .btn-style3 {
