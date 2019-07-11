@@ -119,7 +119,7 @@
 
 
         var hireBtn = $(".hire-btn");
-        var contactArea = $("#client-testimonial");
+        var contactArea = $("#portfolio");
         hireBtn.on("click", function() {
             pagebody.animate({
                 scrollTop: (contactArea.offset().top) - 60
