@@ -853,6 +853,16 @@ textarea {
   border-radius: 4rem; 
   margin-top:5rem
 }
+.btn-enviar{
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+  margin-top: 3rem;
+  /* background: #978f8fbe;  */
+  padding: 1rem;
+  border-radius: 4rem
+  /* text-align: center; */
+}
 /*---------------footer-------------*/
 
 footer {
