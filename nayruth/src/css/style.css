@@ -863,6 +863,21 @@ textarea {
   border-radius: 4rem
   /* text-align: center; */
 }
+.centrado{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3.3rem;
+  width: 7rem;
+  text-align: center;
+   
+}
+.centradoCodigo{
+  margin-right:0.8rem
+}
+.centradoDemo{
+  margin-right:1rem
+}
 /*---------------footer-------------*/
 
 footer {
