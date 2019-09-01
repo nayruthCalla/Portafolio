@@ -657,10 +657,10 @@ h6 {
 }
 
 /*-------------------testimonial section---------------*/
-/* #back-test {
-  background: url("../images/unamad2.jpg"); 
-  background-repeat: no-repeat;
-} */
+#back-test {
+  /* background: url("../images/unamad2.jpg"); 
+  background-repeat: no-repeat; */
+}
 #client-testimonial {
   /* background: rgba(56, 54, 54, 0.37); */
   background: url("../images/unamad2.jpg");
