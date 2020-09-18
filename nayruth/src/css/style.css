@@ -662,8 +662,8 @@ h6 {
   background-repeat: no-repeat; */
 }
 #client-testimonial {
-  background: rgba(56, 54, 54, 0.37); 
-  background: url("../images/unamad2.jpg");
+  background: rgba(56, 39, 39, 0.562); 
+  /*background: url("../images/unamad2.jpg");
   /* background-size: cover; */
   background-repeat: no-repeat;
 }
